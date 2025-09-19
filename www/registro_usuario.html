@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+
+<html lang="es" xml:lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover" />
+  <link rel="stylesheet" href="css/output.css" />
+  <title>Hello World</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: poppins, sans-serif;
+    }
+  </style>
+</head>
+
+
+<body class="bg-[#0D0D0D]">
+  <img src="./img/fondoMob_Registro.jpg" alt="" class="md:opacity-45 opacity-[.5] w-full h-full object-cover fixed -z-10 md:w-auto md:top-0 md:left-0 ">
+  <main class="flex min-h-screen flex-col items-center justify-center">
+      <div class="flex flex-col items-center justify-center gap-7">
+        <div>
+            <img class="animate__animated animate__zoomInDown" src="./img/logoXz.png" alt="">
+            <h1 class="text-center italic text-[#E2F163] text-5xl font-bold animate__animated animate__zoomInDown">FITBODY</h1>
+        </div>
+        <div>
+            <h2 class="text-center text-white text-sm animate__animated animate__backInLeft">Regístrate de usuario para continuar</h2>
+        </div>
+        <form id="loginForm" class="flex flex-col items-center justify-center gap-5 md:w-2xl w-full mx-auto">
+          <input type="text" name="nombre" placeholder="Nombre completo" required class="bg-[#ffffff] text-black py-2 px-10  rounded-full text-center animate__animated animate__backInLeft w-full h-10">
+          <input type="email" name="email" placeholder="Correo Electrónico" required class="bg-[#ffffff] text-black py-2 px-10 text-x rounded-full text-center animate__animated animate__backInLeft w-full h-10">
+          <input type="password" name="password" placeholder="Contraseña" required class="bg-[#ffffff] text-black py-2 px-10 rounded-full text-center animate__animated animate__backInLeft w-full h-10">
+          <select class="w-full bg-[#ffffff] text-black py-2 px-10 text-center rounded-full animate__animated animate__backInLeft h-10" id="rol">
+              <option value=""disabled selected>Selecciona tu rol</option>
+              <option value="usuario">Usuario</option>
+              <option value="coach">Coach</option>
+              <option value="nutriologo">Nutriólogo</option>
+        </select>
+          <button type="submit" class="bg-[#E2F163] text-black font-bold py-2 px-4 h-10 rounded-full w-full animate__animated animate__backInLeft">Registrar</button>
+        </form>
+    </div>
+  </main>
+
+
+  <script src="cordova.js"></script>
+  <script src="js/registro_usuario.js"></script>
+</body>
+
+</html>

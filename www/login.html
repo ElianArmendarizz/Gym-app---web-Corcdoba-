@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="es" xml:lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover" />
+  <link rel="stylesheet" href="css/output.css" />
+  <title>Hello World</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: poppins, sans-serif;
+    }
+  </style>
+</head>
+
+
+<body class="bg-[#000000]">
+  <img src="./img/fondoMob_login.png" alt="" class="md:opacity-10 opacity-10 w-full h-full object-cover fixed -z-10 md:w-1/2 md:top-0 md:left-0">
+  <main class="flex min-h-screen flex-col items-center justify-center">
+    <div class="flex flex-col items-center justify-center gap-7">
+      <div>
+        <img class="animate__animated animate__zoomInDown" src="./img/logoXz.png" alt="">
+        <h1 class="text-center italic text-[#E2F163] text-5xl font-bold animate__animated animate__zoomInDown">FITBODY
+        </h1>
+      </div>
+      <div>
+        <h2 class="text-center text-white text-sm animate__animated animate__backInLeft">Inicia sesión para continuar
+        </h2>
+      </div>
+      <form id="loginForm" class="flex flex-col items-center justify-center gap-5 md:w-2xl w-full mx-auto">
+        <input type="email" name="email" placeholder="Correo Electrónico" required
+          class="bg-[#ffffff] text-black py-2 px-10 text-x rounded-full text-center animate__animated animate__backInLeft w-full h-10">
+        <input type="password" name="password" placeholder="Contraseña" required
+          class="bg-[#ffffff] text-black py-2 px-10 rounded-full text-center animate__animated animate__backInLeft w-full h-10">
+        <button type="submit"
+          class="bg-[#E2F163] text-black font-bold py-2 px-4 h-10 rounded-full w-full animate__animated animate__backInLeft cursor-pointer">Iniciar
+          sesión</button>
+
+      </form>
+      <a href="./registro_usuario.html"
+        class="text-center text-white text-sm animate__animated animate__backInLeft underline decoration-solid italic">¿No
+        tienes cuenta? Regístrate</a>
+    </div>
+  </main>
+
+
+  <script src="cordova.js"></script>
+  <script src="js/login.js"></script>
+</body>
+
+</html>

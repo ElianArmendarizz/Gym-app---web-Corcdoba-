@@ -2,8 +2,13 @@
 
 Una aplicación web y móvil para gestionar rutinas de entrenamiento en gimnasio, con acceso para múltiples usuarios. Desarrollada con **HTML5, TailwindCSS, JavaScript, Node.js, PHP, MySQL y Apache Cordova**.
 
-![Captura de la aplicación](./images/screenshot-1.png)
+## Web
+![Captura de la aplicación](./screen/screenshot1-web.png)
+![Captura de la aplicación](./screen/screenshot2-web.png)
 
+## Phone
+![Captura de la aplicación](./screen/screenshot1-phone.png)
+![Captura de la aplicación](./screen/screenshot2-phone.png)
 ## ✨ Características
 
 - 👤 Registro e inicio de sesión de usuarios  

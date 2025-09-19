@@ -4,7 +4,7 @@ Una aplicación web y móvil para gestionar rutinas de entrenamiento en gimnasio
 
 ## Web
 ![Captura de la aplicación](./screen/screenshot1-web.png)
-![Captura de la aplicación](./screen/screenshot2-web.png)
+![Captura de la aplicación](./screen/screenshot3-web.png)
 
 ## Phone
 ![Captura de la aplicación](./screen/screenshot1-phone.png)
